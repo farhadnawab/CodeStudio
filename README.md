@@ -1,5 +1,5 @@
 # CodeStudio
-Static Website Development - HTML/CSS/JS/TailwindCSS (Responsive)
+Web Application - HTML/CSS/JS/TailwindCSS (Responsive)
 
 Hello world!
 
