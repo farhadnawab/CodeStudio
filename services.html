@@ -1,0 +1,301 @@
+<! DOCTYPE html>
+<html lang="en">
+ <head>
+  <!-- Basic -->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">	
+
+  <title>Code Studio</title>	
+
+  <meta name="keywords" content="Code Studio" />
+  <meta name="description" content="Code Studio">
+  <meta name="author" content="https://github.com/farhadnawab">
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon" />
+  <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no">
+    
+  <link href="assets/css/output.css" type="text/css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css">
+  
+  <!-- Animate On Scroll -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+ </head>
+ <body class="not-front leading-normal tracking-normal bg-white font-mont">
+
+  <div class="main-wrapper overflow-hidden">
+    
+    <!--Nav-->
+    <nav id="header" class="fixed w-full z-30 top-0 text-white">
+
+        <div class="w-full container max-w-6xl mx-auto px-10 flex flex-wrap items-center justify-between mt-0 py-4">
+
+            <div class="flex items-center" data-aos="fade-right" data-aos-delay="500">
+                <a class="block max-w-5xs logo" href="index.html">
+                    <img src="assets/img/logo.svg" />
+                </a>
+            </div>
+
+            <div class="block flex items-center justify-center" data-aos="zoom-in" data-aos-delay="200">
+                <a href="contact-us.html" class="btn hidden sm:block border-2 rounded-sm border-white text-white no-underline tracking-wide py-4 px-12 mr-12 hover:bg-white hover:text-primary">Get in touch</a>
+                <button id="nav-toggle" class="flex items-center px-3 py-2 text-white appearance-none focus:outline-none" type="button" onclick="openMenu()">
+                    <svg class="fill-current h-6 w-6" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
+                    </svg>
+                </button>
+            </div>
+
+            <div class="w-full h-full text-white py-20 px-5 z-50 bg-gray-100 bg-primary fixed top-0 left-0" id="nav-content">
+                <button class="absolute top-0 right-0 mr-5 mt-5 bg-white" type="button" onclick="closeMenu()">
+                    <svg width="36px" height="36px" viewBox="0 0 36 36">
+                        <path d="M13.2813 11.7189L13.2813 0.780128C13.2813 0.349208 12.9319 -0.00012207 12.501 -0.00012207L12.499 -0.00012207C12.0681 -0.00012207 11.7188 0.349208 11.7188 0.780128L11.7188 11.7189L0.78025 11.7189C0.34933 11.7189 0 12.0682 0 12.4991L0 12.5011C0 12.932 0.34933 13.2814 0.78025 13.2814L11.7188 13.2814L11.7188 24.2196C11.7188 24.6505 12.0681 24.9999 12.499 24.9999L12.501 24.9999C12.9319 24.9999 13.2813 24.6505 13.2813 24.2196L13.2813 13.2814L24.2197 13.2814C24.6507 13.2814 25 12.932 25 12.5011L25 12.4991C25 12.0682 24.6507 11.7189 24.2197 11.7189L13.2813 11.7189Z" transform="matrix(0.7071066 0.7071069 -0.7071069 0.7071066 17.67773 0)" id="Combined-Shape" fill="#1A1919" fill-rule="evenodd" stroke="none" />
+                    </svg>
+                </button>
+
+                <ul class="list-reset flex flex-col w-full max-w-2xl mx-auto text-3xl font-hairline capitalize">
+                    <li class="mb-3">
+                        <a class="inline-block no-underline hover:text-gray-700 hover:text-underline" href="index.html">Home</a>
+                    </li>
+                    <li class="mb-3">
+                        <a class="inline-block no-underline hover:text-gray-700 hover:text-underline" href="services.html">Services</a>
+                    </li>
+                    <li class="mb-3">
+                        <a class="inline-block no-underline hover:text-gray-700 hover:text-underline" href="why-us.html">Why Us</a>
+                    </li>
+                    <li class="mb-3">
+                        <a class="inline-block no-underline hover:text-gray-700 hover:text-underline" href="contact-us.html">Contact Us</a>
+                    </li>
+                </ul>                
+            </div>
+            
+        </div>
+    </nav>
+
+    <!-- Banner Section-->
+    <div class="relative z-10 overflow-hidden">
+
+      <div class="container max-w-6xl px-10 mx-auto flex flex-col sm:flex-row sm:flex-row-reverse items-center">
+          
+        <!--Right Col-->
+          <div class="w-full md:w-3/5 md:text-right" data-aos="fade-left" data-aos-duration="1500" data-aos-delay="1000">
+              <img class="inline-block w-full mr-0 lg:-mr-32 pointer-events-none" src="assets/img/vector4.svg">
+          </div>
+          
+          <!--Left Col-->
+          <div class="w-full md:w-2/5 mt-10 md:mt-0 text-center md:text-left relative z-10" data-aos="fade-up" data-aos-duration="500" data-aos-delay="1200">
+              
+              <h1 class="mb-4 text-4xl font-semibold leading-tight text-tertiary">Services</h1>
+              <p class="leading-normal font-hairline text-xl lg:-mr-32">Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum</p>
+              
+          </div>
+      </div>
+
+    </div>
+
+
+    <!-- Section -->
+    <section class="py-20">
+        <div class="container max-w-6xl px-10 mx-auto">                        
+            <div class="flex flex-row flex-wrap justify-center">
+
+                <!-- Container -->
+                <div class="flex-1 pt-1">
+                  
+                  <!-- Row -->
+                  <div class="flex flex-col sm:flex-row">
+
+                    <!-- Col -->
+                    <div class="flex flex-1 border-b sm:border-r border-primary py-10 px-6">
+                        <div class="rounded-full bg-green text-white text-sm w-8 h-8 lg:text-xl lg:w-10 lg:h-10 flex justify-center items-center mr-4">
+                          <i class="fas fa-check"></i>
+                        </div>
+                        <div class="flex-1">
+                          <h1 class="w-full text-xl font-semibold leading-tight mt-1 lg:mt-2 mb-5 text-tertiary">Service 1</h1>
+                          <p class="leading-loose">Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs.</p>
+                        </div>
+                    </div>
+
+                    <!-- Col -->
+                    <div class="flex flex-1 border-b border-primary py-10 px-6">
+                        <div class="rounded-full bg-green text-white text-sm w-8 h-8 lg:text-xl lg:w-10 lg:h-10 flex justify-center items-center mr-4">
+                          <i class="fas fa-check"></i>
+                        </div>
+                        <div class="flex-1">
+                          <h1 class="w-full text-xl font-semibold leading-tight mt-1 lg:mt-2 mb-5 text-tertiary">Service 2</h1>
+                          <p class="leading-loose">Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs.</p>
+                        </div>
+                    </div>
+                  </div>
+                  
+                  <!-- Row -->
+                  <div class="flex flex-col sm:flex-row">
+
+                    <!-- Col -->
+                    <div class="flex flex-1 border-b sm:border-r border-primary py-10 px-6">
+                        <div class="rounded-full bg-green text-white text-sm w-8 h-8 lg:text-xl lg:w-10 lg:h-10 flex justify-center items-center mr-4">
+                          <i class="fas fa-check"></i>
+                        </div>
+                        <div class="flex-1">
+                          <h1 class="w-full text-xl font-semibold leading-tight mt-1 lg:mt-2 mb-5 text-tertiary">Service 1</h1>
+                          <p class="leading-loose">Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs.</p>
+                        </div>
+                    </div>
+
+                    <!-- Col -->
+                    <div class="flex flex-1 border-b border-primary py-10 px-6">
+                        <div class="rounded-full bg-green text-white text-sm w-8 h-8 lg:text-xl lg:w-10 lg:h-10 flex justify-center items-center mr-4">
+                          <i class="fas fa-check"></i>
+                        </div>
+                        <div class="flex-1">
+                          <h1 class="w-full text-xl font-semibold leading-tight mt-1 lg:mt-2 mb-5 text-tertiary">Service 2</h1>
+                          <p class="leading-loose">Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs.</p>
+                        </div>
+                    </div>
+                  </div>
+                  
+                  <!-- Row -->
+                  <div class="flex flex-col sm:flex-row">
+
+                    <!-- Col -->
+                    <div class="flex flex-1 border-b sm:border-b-0 sm:border-r border-primary py-10 px-6">
+                        <div class="rounded-full bg-green text-white text-sm w-8 h-8 lg:text-xl lg:w-10 lg:h-10 flex justify-center items-center mr-4">
+                          <i class="fas fa-check"></i>
+                        </div>
+                        <div class="flex-1">
+                          <h1 class="w-full text-xl font-semibold leading-tight mt-1 lg:mt-2 mb-5 text-tertiary">Service 1</h1>
+                          <p class="leading-loose">Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs.</p>
+                        </div>
+                    </div>
+
+                    <!-- Col -->
+                    <div class="flex flex-1 border-primary py-10 px-6">
+                        <div class="rounded-full bg-green text-white text-sm w-8 h-8 lg:text-xl lg:w-10 lg:h-10 flex justify-center items-center mr-4">
+                          <i class="fas fa-check"></i>
+                        </div>
+                        <div class="flex-1">
+                          <h1 class="w-full text-xl font-semibold leading-tight mt-1 lg:mt-2 mb-5 text-tertiary">Service 2</h1>
+                          <p class="leading-loose">Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs.</p>
+                        </div>
+                    </div>
+                  </div>
+                  <a href="#" class="block mx-auto w-full max-w-4xs mt-20 rounded-sm bg-primary text-white text-center no-underline tracking-wide py-3 px-12 hover:bg-tertiary hover:text-white">Our Work</a>  
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Section -->
+    <section class="mt-16 bg-secondary relative" data-aos="fade-up" data-aos-duration="800">
+        <div class="container max-w-6xl px-10 mx-auto text-white">                        
+            <div class="flex flex-col md:flex-row items-center py-10 text-center md:text-left">
+                
+              <!-- Left COl -->
+                <div class="mb-10 md:w-2/5 md:pr-10 md:py-16 md:mb-0">
+                  <h1 class="w-full text-3xl font-semibold leading-tight mb-5">Talk To Us</h1>
+                  <p class="leading-loose opacity-75">Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. </p>
+                  
+                  <a href="#" class="inline-block w-full max-w-5xs mt-8 rounded-sm bg-primary text-white text-center no-underline tracking-wide py-3 px-12 hover:bg-tertiary hover:text-white">CTA</a>  
+                  
+                </div>
+
+                <!-- Right COl -->
+                <div class="md:w-3/5 md:pl-10">
+                    <img class="pointer-events-none" src="assets/img/vector5.svg">
+                </div>  
+            </div>
+        </div>
+    </section>
+
+    <!--Footer-->
+    <footer class="bg-tertiary text-white relative z-10">
+        <div class="container w-full max-w-6xl px-10 pt-12 pb-0 md:py-12 mx-auto">
+
+            <div class="flex flex-col text-center md:flex-row md:text-left pb-12">
+
+                <!-- Left Col -->
+                <div class="flex-1 md:mr-24">
+                    
+                    <a class="inline-block max-w-5xs logo mb-10" href="index.html">
+                        <img src="assets/img/logo.svg" />
+                    </a>
+
+                    <p class="opacity-75 leading-loose md:mb-5">Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who</p>
+                    
+                    <ul class="footer-social-icons flex flex-wrap justify-center md:justify-start text-xl text-tertiary md:mt-5 -ml-2">
+                        <li class="p-2 mt-2"><a href="/" class="bg-white hover:bg-primary hover:text-white rounded-full w-8 h-8 flex items-center justify-center"><i class="fab fa-facebook-f"></i></a></li>
+                        <li class="p-2 mt-2"><a href="/" class="bg-white hover:bg-primary hover:text-white rounded-full w-8 h-8 flex items-center justify-center"><i class="fab fa-twitter"></i></a></li>
+                      </ul>
+                </div>
+
+                <div class="md:w-48 md:mr-24 mt-8">
+                    <h1 class="font-semibold text-2xl mb-2 md:mb-10">Quicklinks</h1>
+
+                    <ul class="list-reset mb-6">
+                        <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                            <a href="#" class="no-underline opacity-75 hover:opacity-100">Home</a>
+                        </li>
+                        <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                            <a href="#" class="no-underline opacity-75 hover:opacity-100">About</a>
+                        </li>
+                        <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                            <a href="#" class="no-underline opacity-75 hover:opacity-100">Lorem Ipsum</a>
+                        </li>
+                        <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                            <a href="#" class="no-underline opacity-75 hover:opacity-100">Lorem Ipsum Dolor</a>
+                        </li>
+                        <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                            <a href="#" class="no-underline opacity-75 hover:opacity-100">Lorem Ipsum</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="md:w-48 mt-8">
+                    <h1 class="font-semibold text-2xl mb-2 md:mb-10">Contact Info</h1>
+
+                    <div class="opacity-75">
+                      <div class="group flex justify-center md:justify-start leading-tight mt-6">
+                        <i class="fas fa-map-marker-alt mr-4 text-2xl"></i>
+                        <span>23, Harvest Avenue,
+                        South California, U.S.A</span>
+                      </div>
+                      
+                      <div class="group flex justify-center md:justify-start items-center leading-tight mt-6">
+                        <i class="fas fa-envelope mr-4 text-2xl"></i>
+                        <a href="mailto:contact@codestudio.com" class="no-underline">contact@filty.com</a>
+                      </div>
+                      
+                      <div class="group flex justify-center md:justify-start items-center leading-tight mt-6">
+                        <i class="fas fa-phone-alt mr-4 text-2xl"></i>
+                        <a href="tel:118001175222" class="no-underline">1234-567-8910</a>
+                      </div>
+                    </div>
+                </div>  
+
+            </div>
+
+            <hr class="border-white opacity-75 -ml-40 -mr-40" />
+
+            <div class="overflow-hidden py-4 text-center sm:text-left">
+              <span class="sm:float-left block opacity-75">2018 Codestudio. All rights reserved</span>
+
+              <a href="#" class="sm:float-right block text-white opacity-75 hover:opacity-100 underline sm:no-underline">Terms and Conditions</a>
+            </div>
+        </div>
+    </footer>
+  </div>
+  
+</body>
+
+<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+ 
+<!-- Animate On Scroll -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<script src="assets/js/main.js"></script> 
+</html>

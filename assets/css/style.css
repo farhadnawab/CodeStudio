@@ -1,0 +1,118 @@
+
+/* Font Included */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,600,700&display=swap');
+
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+
+:hover{
+    -webkit-transition: all ease 0.3s;
+    -moz-transition: all ease 0.3s;
+    transition: all ease 0.3s;
+}
+
+.not-front #header{
+    @apply bg-tertiary;   
+}
+.not-front #header .container{
+    @apply py-5;
+}
+.not-front #header .logo{
+    -webkit-transition: all ease 0.3s;
+    -moz-transition: all ease 0.3s;
+    transition: all ease 0.3s;
+}
+
+.sticked #header{
+    @apply fixed bg-tertiary;   
+}
+.sticked #header .container{
+    @apply py-2;
+}
+.sticked #header .logo{
+    -webkit-transition: all ease 0.3s;
+    -moz-transition: all ease 0.3s;
+    transition: all ease 0.3s;
+    @apply max-w-6xs;
+}
+.sticked #header .btn{
+    @apply py-2 px-6 mr-5;
+}
+
+/* Thumbnail hover effect */
+.thumb-hover{
+    @apply block;
+    @apply relative;
+    @apply overflow-hidden;
+}
+.thumb-hover:after {
+    content: "";
+    @apply bg-primary;
+    opacity: 0.3;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    position: absolute;
+    height: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: block;
+    z-index: 1;
+}
+.thumb-hover img{
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.thumb-hover:hover img{
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.thumb-hover:hover:after{
+    @apply h-full;
+}
+
+#nav-content{
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    transform: scale(0);
+}
+#nav-content.active{
+    visibility: visible;
+    opacity: 1;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: all ease 0.3s;
+    -moz-transition: all ease 0.3s;
+    transition: all ease 0.3s;
+}
+
+html{
+    font-size: 13px;
+}
+@media (min-width: 640px) {
+    html{
+        font-size: 14px;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    html{
+        font-size: 15px;
+    }
+  }
+  
+  @media (min-width: 1280px) {
+    html{
+        font-size: 16px;
+    }
+  }

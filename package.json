@@ -1,0 +1,22 @@
+{
+  "name": "codestudio",
+  "version": "1.0.0",
+  "description": "Html / CSS / JS static website using tailwindCSS",
+  "main": "index.js",
+  "scripts": {
+    "buildcss": "npx tailwind build assets/css/style.css -o assets/css/output.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Farhadnawab/CodeStudio.git"
+  },
+  "author": "Farhad Nawab",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Farhadnawab/CodeStudio/issues"
+  },
+  "homepage": "https://github.com/Farhadnawab/CodeStudio#readme",
+  "devDependencies": {
+    "tailwindcss": "^1.1.3"
+  }
+}
